@@ -121,6 +121,16 @@ body.opening-active {
   transition: ease-in-out 300ms;
 }
 
+/* Congrats Message Splash Screen */
+.congrats-message {
+  text-align: center;
+  font-family: var(--family-playfair);
+  font-size: var(--fs-40);
+  font-weight: var(--fw-400);
+  letter-spacing: var(--ls-sm);
+  text-transform: uppercase;
+}
+
 /* Navbar */
 .nav-link,
 .hero,
@@ -490,6 +500,11 @@ body.opening-active {
   /* Splash Screen */
   .opening-wrapper {
     gap: 300px;
+  }
+
+  /* Congrats Message Splash Screen */
+  .congrats-message {
+    font-size: var(--fs-32);
   }
 
   /* Navbar */
